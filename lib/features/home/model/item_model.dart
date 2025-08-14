@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+
+class ItemFoodModel {
+  final String imagepath;
+  final String name;
+  final String price;
+  Color? bgColor = Color(0xfffFFFFF);
+
+  ItemFoodModel(
+    {required this.imagepath, 
+    required this.name, 
+    required this.price, 
+    this.bgColor});
+}
